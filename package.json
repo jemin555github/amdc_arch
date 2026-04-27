@@ -1,0 +1,52 @@
+{
+  "name": "amdc-site",
+  "version": "1.0.0",
+  "description": "Premium Architectural Portfolio for AMDC (Alexander Mitchell Design Company) — A high-end showcase of architectural excellence featuring immersive 3D visualizations, GSAP animations, and modern web aesthetics.",
+  "author": "Alexander Mitchell",
+  "license": "UNLICENSED",
+  "private": true,
+  "keywords": [
+    "architecture",
+    "portfolio",
+    "nextjs",
+    "threejs",
+    "gsap",
+    "interior-design",
+    "3d-rendering",
+    "premium-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jemin555github/amdc_arch"
+  },
+  "bugs": {
+    "url": "https://github.com/jemin555github/amdc_arch/issues"
+  },
+  "homepage": "https://github.com/jemin555github/amdc_arch#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.0",
+    "framer-motion": "^12.38.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.23",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "swiper": "^12.1.3",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4"
+  }
+}
+
